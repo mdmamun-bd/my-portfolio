@@ -13,7 +13,7 @@ body{
 h1{
     font-size: 50px;
 }
-h1 span{
+span{
     color: orange;
 }
 a{
@@ -59,4 +59,12 @@ section{
     background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
     background-position-x: right;
+}
+.shadow{
+    width:40%;
+    margin:5%;
+    border-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    box-shadow: 5px 6px  5px 5px rgb(73, 177, 209);
+    border-image-slice: 1;
+    border-left:7px solid;
 }
